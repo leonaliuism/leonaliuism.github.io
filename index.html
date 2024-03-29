@@ -21,17 +21,17 @@
         }
 
         header {
-            font-family: 'Impact', sans-serif;
-			background-color: #808080; /* Dark grey header */
-            color: #FFFFFF; /* White header text */
-            text-align: center;
-			font-weight: bold;
-            padding: 15px 0;
-            font-size: 36px;
-		    letter-spacing: 2px;
-            font-weight: 700;
+		    display: none;
+    
         }
 
+		h2 {
+		    font-weight: bold;
+		    font-size: 55px; /* Adjust font size as needed */
+		    font-family: Arial, sans-serif;
+		    margin-bottom: 0px; /* Adjust margin as needed */
+			
+		}	
         .content-wrapper {
             padding: 30px;
             max-width: 800px;
@@ -47,16 +47,16 @@
         }
 
 		img.portrait {
-		    width: 180px; /* Adjust this value to change the size of the image */
-		    height: 180px; /* Set the height to be the same as the width for a square shape */
-		    border-radius: 5px; /* Slightly rounded corners */
-		    display: block;
-		    margin: 0 auto 30px;
-		    transition: transform 0.3s ease-in-out;
-		    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-		    object-fit: cover; /* Ensures the image covers the square area */
-		    object-position: 55% 45%; /* Shifts the image to focus more on the right side */
-		}
+				    width: 180px; /* Adjust this value to change the size of the image */
+				    height: 180px; /* Set the height to be the same as the width for a square shape */
+				    border-radius: 50%; /* Circular shape */
+				    display: block;
+				    margin: 0 auto 30px;
+				    transition: transform 0.3s ease-in-out;
+				    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+				    object-fit: cover; /* Ensures the image covers the square area */
+				    object-position: 55% 45%; /* Shifts the image to focus more on the right side */
+				}
 		
         img.portrait:hover {
             transform: scale(1.05);
@@ -69,7 +69,7 @@
         }
 
         footer {
-            background-color: #d3d3d3; /* Light grey footer */
+            background-color: #f8f9fa; /* Light grey footer */
             color: #6a0dad; /* Purple footer text */
             text-align: center;
             padding: 20px 0;
@@ -104,11 +104,15 @@
 </head>
 <body>
     <header>
-        Leona Liu
     </header>
     <div class="content-wrapper">
         <img class="portrait" src="https://github.com/leonaliuism/leonaliuism.github.io/blob/main/You%20Belong%20headshot.jpg?raw=true" alt="Leona Liu's portrait">
-        <p>With over thirteen years of experience as a tax advisor, I am currently a senior manager at Ernst & Young LLP's international tax and transaction services group in Toronto. I specialize in assisting multinational companies with their international tax structuring. Beyond my professional responsibilities, I am deeply committed to supporting marginalized communities and am actively involved in various grassroots organizations. As the co-chair of EY Canada's AccessAbilities network and one of the firm's Mindfulness champions, I am dedicated to promoting a culture of inclusivity and wellbeing within the workplace. I have also served as the treasurer of Media Action Média, a non-profit organization that amplifies the voices of women in media, and Open Media, a non-profit organization that advocates for an open and surveillance-free internet. Recently, I served on the board of Sistering, a low-barrier, drop-in shelter for women. Additionally, I volunteer with CPA Canada, providing free personal tax preparation services to low-income communities and seniors. My passion for empowering others drives my commitment to supporting organizations that work towards creating a more equitable society.</p>
+        <h2>about me</h2> <!-- New heading for the title -->
+	    <p>I am a Senior Advisor at the Department of Finance within the Tax Legislation Division of the Tax Policy Branch. I was previously a senior manager in Ernst & Young LLP's international tax and transaction services group in Toronto where I spent over fourteen years of experience as a tax advisor assisting multinational companies with their international tax structuring. 
+
+Beyond my professional responsibilities, I am deeply committed to supporting marginalized communities and am actively involved in various grassroots organizations. As the co-chair of EY Canada's AccessAbilities network and one of the firm's Mindfulness champions, I am dedicated to promoting a culture of inclusivity and wellbeing within the workplace. I have also served as the treasurer of Media Action Média, a non-profit organization that amplifies the voices of women in media, and Open Media, a non-profit organization that advocates for an open and surveillance-free internet. Recently, I served on the board of Sistering, a low-barrier, drop-in shelter for women. Additionally, I volunteer with CPA Canada, providing free personal tax preparation services to low-income communities and seniors. 
+
+My passion for empowering others drives my commitment to supporting organizations that work towards creating a more equitable society.</p>
     </div>
     <footer>
         <a href="https://leonaliu.substack.com">Substack</a> | 
